@@ -47,7 +47,7 @@ exports.getAllUsers=async(req,res,next)=>{
 exports.deleteUser=async (req,res,next)=>{
     try{
     const Userid=req.params.id;
-
+   
     if(Userid==='undefined')
     {
         console.log("Id is missing");
